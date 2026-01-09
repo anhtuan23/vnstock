@@ -6,7 +6,7 @@ import pandas as pd
 import requests
 import json
 # from vnstock.core.utils.parser import camel_to_snake
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.user_agent import get_headers
 from vnstock.explorer.msn.helper import msn_apikey

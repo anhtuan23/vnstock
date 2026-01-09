@@ -3,7 +3,7 @@
 from typing import Optional, Union
 from datetime import datetime
 import pandas as pd
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.core.types import TimeFrame
 from vnstock.core.utils.interval import normalize_interval
 from .const import (

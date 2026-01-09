@@ -2,7 +2,7 @@ import sys
 import json
 import os
 import platform
-import vnai
+from vnstock.core import vnai_stub as vnai
 from pathlib import Path
 import logging
 
@@ -148,23 +148,8 @@ def get_package_path(package='vnstock'):
 def id_valid():
     """
     Check if license terms have been accepted.
+    Stubbed out to avoid vnai dependency.
     """
-    from vnstock.core.config.const import ID_DIR
-    from vnai.scope.profile import inspector
-    
-    machine_id = inspector.fingerprint()
-    
-    pkg_init = ID_DIR / "environment.json"
-    try:
-        with open(pkg_init, 'r') as f:
-            env = json.load(f)
-        if not env['accepted_agreement']:
-            # Use vnai to accept terms
-            vnai.accept_license_terms()
-    except:
-        # Use vnai to accept terms
-        vnai.accept_license_terms()
-    
     return True
    
 def get_username():

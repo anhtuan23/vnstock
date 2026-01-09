@@ -1,4 +1,5 @@
-import vnai
+# Use local stub instead of vnai to disable ads/telemetry
+from vnstock.core import vnai_stub as vnai
 
 # Lazy import Vnstock to avoid circular import deadlock
 _Vnstock = None

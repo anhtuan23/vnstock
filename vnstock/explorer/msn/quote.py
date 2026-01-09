@@ -6,7 +6,7 @@ import pandas as pd
 import requests
 from datetime import datetime
 from typing import Optional, Dict
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.core.types import TimeFrame
 from vnstock.core.utils.interval import normalize_interval
 from vnstock.core.utils.logger import get_logger

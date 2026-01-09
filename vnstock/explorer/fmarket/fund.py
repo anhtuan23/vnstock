@@ -11,7 +11,7 @@ from vnstock.explorer.fmarket.const import _BASE_URL, _FUND_TYPE_MAPPING, _FUND_
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.user_agent import get_headers
 from vnstock.core.utils import client
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 
 logger = get_logger(__name__)
 

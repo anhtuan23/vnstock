@@ -5,7 +5,7 @@ from datetime import datetime
 from .const import _TRADING_URL
 import json
 import pandas as pd
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.core.utils.parser import get_asset_type, camel_to_snake, flatten_data
 from vnstock.core.utils.validation import validate_symbol
 from vnstock.core.utils.logger import get_logger
