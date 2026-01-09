@@ -4,7 +4,7 @@ import pandas as pd
 import base64
 import datetime
 import warnings
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 warnings.filterwarnings("ignore", message="Workbook contains no default style, apply openpyxl's default")
 from vnstock.core.utils.parser import camel_to_snake
 

@@ -12,7 +12,7 @@ from vnstock.core.utils.parser import get_asset_type, camel_to_snake
 from vnstock.core.utils.validation import validate_symbol
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.user_agent import get_headers
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.explorer.tcbs.financial import Finance
 
 logger = get_logger(__name__)

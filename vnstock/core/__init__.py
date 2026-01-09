@@ -1,4 +1,5 @@
-from vnai import *
+# Use local stub instead of vnai to disable ads/telemetry
+from vnstock.core.vnai_stub import *
 from .utils.parser import *
 from .utils.logger import *
 from .utils.env import *

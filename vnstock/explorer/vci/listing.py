@@ -13,7 +13,7 @@ from vnstock.core.utils.user_agent import get_headers
 from vnstock.core.utils.client import send_request, ProxyConfig
 from vnstock.core.utils.transform import drop_cols_by_pattern, reorder_cols
 from vnstock.common import indices as market_indices
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 logger = get_logger(__name__)
 
 class Listing:

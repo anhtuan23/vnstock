@@ -9,7 +9,7 @@ Implements standard vnstock interface with unified parameter naming.
 
 import pandas as pd
 from typing import Optional, Union
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.core.base.registry import ProviderRegistry
 from vnstock.core.types import DataCategory, ProviderType, TimeFrame
 from vnstock.core.utils.logger import get_logger

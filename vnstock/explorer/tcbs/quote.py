@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 from typing import Dict, Optional, Union
 from datetime import datetime, timedelta
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from vnstock.core.utils.interval import normalize_interval
 from .const import (
     _BASE_URL, _STOCKS_URL, _FUTURE_URL, _INTERVAL_MAP,

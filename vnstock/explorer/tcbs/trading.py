@@ -9,7 +9,7 @@ from vnstock.core.utils.parser import get_asset_type
 from vnstock.core.utils.validation import validate_symbol
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.user_agent import get_headers
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 from .const import _BASE_URL, _STOCKS_URL, _PRICE_BOARD_COLS_MAP, _PRICE_BOARD_STD_COLS, _PRICE_BOARD_EXT_COLS
 
 logger = get_logger(__name__)

@@ -1,4 +1,5 @@
-import vnai
+# Use local stub instead of vnai to disable ads/telemetry
+from vnstock.core import vnai_stub as vnai
 from vnstock.common.client import Vnstock
 
 # Sử dụng các lớp từ vnstock tiêu chuẩn

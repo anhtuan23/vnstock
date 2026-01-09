@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 from bs4 import BeautifulSoup
 from vnstock.core.utils.user_agent import get_headers
-from vnai import optimize_execution
+from vnstock.core.vnai_stub import optimize_execution
 
 @optimize_execution('MISC')
 def sjc_gold_price(date=None):
