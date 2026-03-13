@@ -3,7 +3,7 @@
 from typing import Dict, List, Optional, Union
 import json
 import pandas as pd
-from vnai import agg_execution
+from vnstock.core.vnai_stub import agg_execution
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.client import send_request, ProxyConfig
 from vnstock.core.utils.user_agent import get_headers

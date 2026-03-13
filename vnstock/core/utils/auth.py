@@ -28,7 +28,7 @@ def register_user(api_key: Optional[str] = None) -> bool:
     """
     try:
         # Check vnai availability
-        import vnai
+        from vnstock.core import vnai
         vnai  # Use the import to avoid unused warning
     except ImportError:
         print("✗ Lỗi: vnai module không được tìm thấy")
@@ -57,7 +57,7 @@ def _register_api_key_directly(api_key: str) -> bool:
         return False
     
     try:
-        from vnai import setup_api_key
+        from vnstock.core import setup_api_key
         if setup_api_key(api_key):
             # Show masked API key after successful registration
             if len(api_key) > 8:
@@ -83,7 +83,7 @@ def _register_interactive() -> bool:
         bool: True if successful, False otherwise
     """
     try:
-        from vnai import setup_api_key, check_api_key_status
+        from vnstock.core import setup_api_key, check_api_key_status
     except ImportError:
         print("✗ Lỗi: vnai module không được tìm thấy")
         return False
@@ -178,7 +178,7 @@ def change_api_key(api_key: str) -> bool:
         return False
     
     try:
-        from vnai import setup_api_key
+        from vnstock.core import setup_api_key
         if setup_api_key(api_key):
             print("✓ API key đã được cập nhật")
             return True
@@ -197,7 +197,7 @@ def check_status() -> Optional[dict]:
         dict: Status information or None if error
     """
     try:
-        from vnai import check_api_key_status
+        from vnstock.core import check_api_key_status
         status = check_api_key_status()
         
         if status.get('has_api_key'):

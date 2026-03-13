@@ -190,9 +190,9 @@ def _display_message(msg, environment, is_warning=False):
 def _check_version_updates():
     """
     Check for newer versions of packages and display update notices.
-    Compares installed vs latest version - only show if update available.
-    Uses current Python executable for upgrade suggestions.
+    Disabled in stubbed version to avoid ads and telemetry.
     """
+    return
     core_packages = ["vnstock", "vnai"]
     license_packages = ["vnii", "vnstock_installer"]
     environment = detect_environment()
@@ -347,10 +347,12 @@ def _check_version_updates():
 def update_notice(verbose=False):
     """
     Check and display package upgrade notices.
+    Disabled in stubbed version to avoid ads and telemetry.
     
     Args:
         verbose: If True, show all notices. Else, show critical only.
     """
+    return
     try:
         environment = detect_environment()
         

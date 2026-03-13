@@ -4,7 +4,7 @@ import pandas as pd
 import json
 from datetime import datetime, timedelta
 from typing import Optional, Union, List
-from vnai import agg_execution
+from vnstock.core.vnai_stub import agg_execution
 from vnstock.core.models import TickerModel
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.parser import get_asset_type, convert_derivative_symbol

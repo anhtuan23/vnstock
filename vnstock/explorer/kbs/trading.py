@@ -5,7 +5,7 @@ import json
 import re
 from datetime import datetime
 from typing import Optional, List
-from vnai import agg_execution
+from vnstock.core.vnai_stub import agg_execution
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.parser import get_asset_type
 from vnstock.core.utils.client import ProxyConfig

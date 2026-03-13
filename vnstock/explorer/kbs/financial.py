@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from typing import Optional, List, Dict, Tuple, Union
 from enum import Enum
-from vnai import agg_execution
+from vnstock.core.vnai_stub import agg_execution
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.parser import get_asset_type, normalize_english_text_to_snake_case
 from vnstock.core.utils.field import FieldHandler

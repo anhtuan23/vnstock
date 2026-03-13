@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from typing import Dict, Optional, List
 import re
-from vnai import agg_execution
+from vnstock.core.vnai_stub import agg_execution
 from vnstock.core.utils.logger import get_logger
 from vnstock.core.utils.parser import get_asset_type, camel_to_snake
 from vnstock.core.utils.transform import clean_html_dict

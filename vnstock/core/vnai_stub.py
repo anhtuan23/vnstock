@@ -78,3 +78,18 @@ def authenticate_for_persistence():
 def tc_init():
     """No-op replacement for vnai.tc_init()"""
     return True
+
+
+def setup_api_key(api_key: str):
+    """No-op replacement for vnai.setup_api_key()"""
+    return True
+
+
+def check_api_key_status():
+    """No-op replacement for vnai.check_api_key_status()"""
+    return {
+        "has_api_key": True,
+        "api_key_preview": "STUB***STUB",
+        "tier": "Community (Stubbed)",
+        "limits": {"per_minute": 60}
+    }
