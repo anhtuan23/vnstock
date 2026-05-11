@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "skills": {
+    "commit-msg": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "commit-msg/SKILL.md",
+      "computedHash": "1aa9f9ae6dc823c23117ad6c14925db72d6ab8adbc00269d7deff72d4c68853c"
+    },
+    "complexity-combat": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "complexity-combat/SKILL.md",
+      "computedHash": "78c14eb0a11e45bfcde664cadac7268a3bd8bd867b654133e546b863f411e1cc"
+    },
+    "dependency-upgrade": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "dependency-upgrade/SKILL.md",
+      "computedHash": "ada9769100cb3079193563217e5012b7e436f1cc7cb7b0cc5cdd40b815d4e916"
+    },
+    "function-ordering": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "function-ordering/SKILL.md",
+      "computedHash": "d40090d8b6c390d50225b5ce5c1a11b37a299252891d45cb05289c18a34f6db7"
+    },
+    "git-reconcile": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "git-reconcile/SKILL.md",
+      "computedHash": "811ac59367d2301a4153a9c78fb9b9d9fcb200e1f35c1541109b21999c8154f0"
+    },
+    "long-file-refactor": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "long-file-refactor/SKILL.md",
+      "computedHash": "8692dfbd213ec7edd88287e88ba26bdd030e498ac9adf3207cf579bb03a58399"
+    },
+    "module-refactor": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "module-refactor/SKILL.md",
+      "computedHash": "599d3a1c59f10c24d7bbe6a45cd94777b64c6d2e92c59741dcf9b7689bd6f840"
+    },
+    "my-go": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "my-go/SKILL.md",
+      "computedHash": "ea3ee9481e3fd269c988ec42727b5e22f931061b979b7a65041e5675212b0c0f"
+    },
+    "my-python": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "my-python/SKILL.md",
+      "computedHash": "0e1a32b4237cb914d616ea0e7d4191f7e96381b8bf21fd986257a5b510b73849"
+    },
+    "my-react": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "my-react/SKILL.md",
+      "computedHash": "2abc9be6c15ee0463c6b64d5948b11b00bc378ac59b0603259d3589d4a2c1dda"
+    },
+    "plan-tracking": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "plan-tracking/SKILL.md",
+      "computedHash": "d99f327c32c487e19f94e461fdce397f8dbb8c1bdbaa4e0a4f98ddd658ce88f2"
+    },
+    "project-refactor": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "project-refactor/SKILL.md",
+      "computedHash": "260b6a85f53733e6624b1082ee0c9de454599275dbc8e679dcdc8c147a3e0b04"
+    },
+    "python-interactive": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "python-interactive/SKILL.md",
+      "computedHash": "3aee44c9ee068b5033fc4b80b988ff7f2eff7a2e31a84a7ce2248337991d950b"
+    },
+    "vectorize": {
+      "source": "anhtuan23/skills",
+      "sourceType": "github",
+      "skillPath": "vectorize/SKILL.md",
+      "computedHash": "29aa266bd3f4c05a71e58596591e75ee289736981d113a70e59c97db2ed5b3e0"
+    }
+  }
+}

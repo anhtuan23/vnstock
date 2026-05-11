@@ -24,6 +24,11 @@ vnstock.setup_agent()
 This will create or update `.agents/AGENTS.md` in the project root with instructions on how to load vnstock AI skills.
 """
 
+
+from . import vnai_stub as vnai
+vnai.install_as_vnai()
+
+
 try:
     from vnstock.core.utils.env import check_sponsor_package
 
@@ -31,8 +36,6 @@ try:
 except Exception:
     pass
 
-
-import vnai
 
 # Lazy import Vnstock to avoid circular import deadlock
 _Vnstock = None

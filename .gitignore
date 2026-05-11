@@ -111,3 +111,8 @@ tests/test_notebook.ipynb
 # Packaging
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Agents
+.agents/
+agent/
+.claude/

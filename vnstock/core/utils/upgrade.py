@@ -369,6 +369,7 @@ def update_notice(verbose=False):
     Args:
         verbose: If True, show all notices. Else, show critical only.
     """
+    return
     try:
         environment = detect_environment()
 
