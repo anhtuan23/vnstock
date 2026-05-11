@@ -59,3 +59,26 @@ make verify
 ```
 
 *Note: If the `make verify` command fails at any step, the developer or agent MUST fix the reported issues and re-run the command until it passes successfully before committing.*
+
+---
+
+## Patch Policy (local `my_branch`)
+
+This project is an external upstream library kept in this workspace as a local
+dependency. Treat it as vendored code.
+
+- Keep changes minimal and targeted.
+- Preserve upstream headers, docs, public APIs, and file organization unless the
+  user explicitly asks to change them.
+- Do not apply broad workspace conventions, refactors, formatting passes, or
+  cleanup in this project.
+- For the local `my_branch` patch, the goal is only to disable ads, telemetry,
+  runtime notices, and external `vnai` side effects.
+- Prefer small compatibility shims over editing many upstream call sites when a
+  shim keeps the patch easier to rebase.
+
+## Git Policy
+
+- Do not stage or commit changes for the user.
+- When rewriting this branch, keep it as a single commit on top of the requested
+  upstream fork point unless the user asks otherwise.

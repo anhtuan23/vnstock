@@ -307,6 +307,7 @@ def check_sponsor_package():
     Issues a warning to suggest switching to vnstock_data for premium features.
     Suppresses warning if called from installer or within vnstock_data.
     """
+    return
     import importlib.util
     import inspect
     import sys
