@@ -67,6 +67,8 @@ make verify
 This project is an external upstream library kept in this workspace as a local
 dependency. Treat it as vendored code.
 
+- Read `AI_CONTEXT.md` for local project context and the location of the
+  imported free-tier vnstock agent guide.
 - Keep changes minimal and targeted.
 - Preserve upstream headers, docs, public APIs, and file organization unless the
   user explicitly asks to change them.
